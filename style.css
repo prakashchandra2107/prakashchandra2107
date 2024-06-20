@@ -378,7 +378,7 @@ p{
 
 @media (max-width:917px){
     .nav-bar{
-        width:200vw;
+        width:100%;
     }
     .bar{
         width:60%;
