@@ -1,0 +1,504 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+.nav-bar{
+    height:90px;
+    background-color: aqua;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.bar{
+    font-size: 30px;
+    display:none;
+}
+.logo{
+    height: 100%;
+    
+}
+.ima{
+    height: 80%;
+    width:30%;
+    display:flex;
+    justify-content: flex-start;
+}
+.anch{
+    width:60%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+.aa{
+    margin: 15px;
+    text-decoration: none;
+}
+.phh{
+    height:650px;
+    width:100%;
+    background-image:url(DSC6318.jpg) ;
+    background-size: cover;
+    color: yellow;
+    position: fixed;
+    top:10px;
+    bottom:-10px;
+    z-index: -1;
+}
+.inff{
+    height: 600px;
+    background-color: transparent;
+    position: absolute;
+    z-index: 1;
+    
+}
+h1{
+    color:aliceblue;
+    margin-left: 50px;
+}
+.p{
+    font-size: 60px;
+    color:rgba(255, 136, 0, 0.788);
+    margin-top: 300px;
+    margin-left: 50px;
+}
+.persona{
+    height:1800px;
+    background-color: aliceblue;
+    margin-top:630px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-size: 50px;
+    color:rgba(255, 136, 0, 0.788);
+}
+.per{
+    display: flex;
+    
+}
+.pe{
+    height:600px;
+    width: 400px;
+    margin: 20px;
+}
+.pers{
+    height:600px;
+    width:400px;
+    background-image: url(DSC6318.jpg);
+    background-size:cover;
+    display:flex;
+    margin: 20px;
+    border:10px solid white;
+    box-shadow: 0px 0px 16px 2px black;
+}
+.gur{
+    display:flex;
+    width:900px;
+
+}
+.guru{
+    background-image: url(guru.jpg);
+    background-size:cover;
+    height:400px;
+    width:500px;
+    margin: 20px;
+    border:10px solid white;
+    box-shadow: 0px 0px 16px 2px black;
+
+}
+.guruu{
+    width:300px;
+}
+.award{
+    display:flex;
+    width:900px;
+}
+.awar{
+    width:300px;
+}
+.awa{
+    background-image: url(award.jpeg);
+    background-size:cover;
+    height:400px;
+    width:500px;
+    margin: 20px;
+    border:10px solid white;
+    box-shadow: 0px 0px 16px 2px black;;
+}
+p{
+    font-size: 25px;
+}
+.gallery{
+    background-color: aliceblue;
+    height:730px;
+    margin-top: -70px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gall{
+    height:550px;
+    width:80%;
+    background-color: white;
+}
+.book{
+    height:500px;
+    background-color: rgb(51, 50, 50);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boo{
+    background-image: url(book.jpg);
+    height:250px;
+    width:500px
+}
+.video{
+    height:800px;
+    background-color: aliceblue;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.vide{
+    height:700px;
+    width:80%;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.vid{
+    height:175px;
+    width: 20vw;
+    background-color: aqua;
+    margin:20px;
+}
+.button1{
+    height:40px;
+    border-radius: 6px;
+}
+.button2{
+    height:40px;
+    width: 80px;
+    background-color: red;
+    border:2px solid black;
+    border-radius: 6px;
+}
+.button3{
+    height:40px;
+    width:130px;
+    font-size: 20px;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8a3ab9;
+    border-radius:30px ;
+    color:white;
+}
+.button4{
+    height:30px;
+    width:200px;
+    font-size: 18px;
+    border:2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #8a3ab9;
+    border-radius:10px ;
+    color:white;
+
+}
+.social{
+    height:300px;
+    background-color: aliceblue;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icons{
+    width:40%;
+    height:100px;
+    font-size: 50px;
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    background-color: aliceblue;
+}
+.audio{
+    height:450px;
+    background-color: aliceblue;
+    display:flex;
+    
+    flex-direction: column;
+    align-items: center;
+}
+.download{
+    height:150px;
+    background-color: aliceblue;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.button5{
+    height:35px;
+    width:270px;
+    color:white;
+    font-size: 15px;
+    background-color: rgba(255, 136, 0, 0.788);
+    border:none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 1px rgba(255, 136, 0, 0.788);
+}
+.button5:hover{
+    box-shadow: 0px 0px 35px 15px rgba(255, 136, 0, 0.788);
+}
+.audi{
+    height:370px;
+    width:80%;
+    background-color: white;
+}
+.media{
+    height:1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+}
+.medi{
+    height:1000px;
+    width:80%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.foot{
+    height:390px;
+    background-color: aliceblue;
+    display:flex;
+    justify-content: space-evenly;
+    border-top: 5px solid rgba(255, 136, 0, 0.788);
+    border-bottom: 5px solid rgba(255, 136, 0, 0.788);
+}
+.foo {
+    height:400px;
+    display:flex;
+    flex-direction: column;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.qr1{
+    display:flex;
+    flex-direction: column;
+}
+.qr{
+    background-image: url(qr-code-150x150.png);
+    height:150px;
+    width:150px;
+
+}
+.iioo{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.end{
+    height:50px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#figu{
+    height:200px;
+    width:150px;
+    margin: 50px;
+    background-color: #8a3ab9;
+}
+.figu{
+    background-image: url(dainik-jagran-16-sept-2013-500x671-1.jpg);
+    background-size: cover;
+}
+.figu1{
+    background-image: url(ganda-bandhan-19th-feb-2015-newspaper-reviews-hindustan-danik-jagran-amar-ujala-rashtriya-sahara-1-988x1116-1.jpg);
+    background-size: cover;
+}
+.figu2{
+    background-image: url(dainik-jagran-16-sept-2013-500x671-1.jpg);
+    background-size: cover;
+}
+.figu3{
+    background-image: url(dainik-jagran-16-sept-2013-500x671-1.jpg);
+    background-size: cover;
+}
+.figu4{
+    background-image: url(dainik-jagran-16-sept-2013-500x671-1.jpg);
+    background-size: cover;
+}
+.figu5{
+    background-image: url(dainik-jagran-16-sept-2013-500x671-1.jpg);
+    background-size: cover;
+}
+.figu6{
+    background-image: url(dainik-jagran-16-sept-2013-500x671-1.jpg);
+    background-size: cover;
+}
+.figu7{
+    background-image: url(dainik-jagran-16-sept-2013-500x671-1.jpg);
+    background-size: cover;
+}
+.figu8{
+    background-image: url(dainik-jagran-16-sept-2013-500x671-1.jpg);
+    background-size: cover;
+}
+.figu9{
+    background-image: url(dainik-jagran-16-sept-2013-500x671-1.jpg);
+    background-size: cover;
+}
+.figu10{
+    background-image: url(dainik-jagran-16-sept-2013-500x671-1.jpg);
+    background-size: cover;
+}
+.figu11{
+    background-image: url(dainik-jagran-16-sept-2013-500x671-1.jpg);
+    background-size: cover;
+}
+
+@media (max-width:917px){
+    .nav-bar{
+        width:200vw;
+    }
+    .bar{
+        width:60%;
+        display:flex;
+        justify-content: flex-end;
+    }
+    .anch{
+        display:none;
+    }
+    .ima{
+        display:flex;
+        justify-content: flex-start;
+    }
+    .p{
+        font-size: 20px;
+    }
+    .phh{
+        width:200vw;
+        display:flex;
+        position: absolute;
+    }
+    .persona{
+        height:3000px;
+        width:200vw;
+    }
+    .per{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+        align-items:center ;
+        justify-content: center;
+    }
+    .pers{
+        width:70vw;
+    }
+    .pe{
+        width: 70vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height:300px;
+    }
+    .gur{
+        width:200vw;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .guru{
+        width:80vw;
+    }
+    .award{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .awa{
+        width:80vw;
+
+    }
+    .gallery{
+        width:200vw;
+    }
+    .book{
+        width:200vw;
+    }
+    .boo{
+        width:50vw;
+
+    }
+    .video{
+        width:200vw;
+        height:900px;
+        display: flex;
+        flex-direction: column;
+    }
+    .vide{
+        height:750px;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .vid{
+        width:30vw;
+        height:16vh;
+        margin: 15px;
+    }
+    .social{
+        width:200vw;
+    }
+    #figu{
+        width:30vw;
+        margin:20px;
+    }
+    .icons{
+        font-size: 20px;
+    }
+    .audio{
+        width:200vw;
+    }
+    .download{
+        width:200vw;
+    }
+    .media{
+        width:200vw;
+        height:1500px;
+    }
+    .medi{
+        width:100%;
+        display:flex;
+        flex-wrap: wrap;
+    }
+    
+    .foot{
+        width:200vw;
+    }
+    .end{
+        width:200vw;
+    }
+}
