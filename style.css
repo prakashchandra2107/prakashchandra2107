@@ -378,7 +378,7 @@ p{
 
 @media (max-width:917px){
     .nav-bar{
-        width:100%;
+        width:240vw;
     }
     .bar{
         width:60%;
@@ -396,18 +396,18 @@ p{
         font-size: 20px;
     }
     .phh{
-        width:100%;
+        width:240vw;
         display:flex;
         position: absolute;
     }
     .persona{
         height:3000px;
-        width:100%;
+        width:240vw;
     }
     .per{
         display:flex;
         flex-direction: column;
-        width:100%;
+        width:240vw;
         align-items:center ;
         justify-content: center;
     }
@@ -422,7 +422,7 @@ p{
         height:300px;
     }
     .gur{
-        width:100%;
+        width:240vw;
         display:flex;
         flex-direction: column;
         justify-content: center;
@@ -442,17 +442,17 @@ p{
 
     }
     .gallery{
-        width:100%;
+        width:240vw;
     }
     .book{
-        width:100%;
+        width:240vw;
     }
     .boo{
         width:50vw;
 
     }
     .video{
-        width:100%;
+        width:240vw;
         height:900px;
         display: flex;
         flex-direction: column;
@@ -470,7 +470,7 @@ p{
         margin: 15px;
     }
     .social{
-        width:100%;
+        width:240vw;
     }
     #figu{
         width:30vw;
@@ -480,25 +480,25 @@ p{
         font-size: 20px;
     }
     .audio{
-        width:100%;
+        width:240vw;
     }
     .download{
-        width:200vw;
+        width:240vw;
     }
     .media{
-        width:100%;
+        width:240vw;
         height:1500px;
     }
     .medi{
-        width:100%;
+        width:240vw;
         display:flex;
         flex-wrap: wrap;
     }
     
     .foot{
-        width:100%;
+        width:240vw;
     }
     .end{
-        width:100%;
+        width:240vw;
     }
 }
