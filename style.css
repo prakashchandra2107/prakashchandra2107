@@ -412,10 +412,10 @@ p{
         justify-content: center;
     }
     .pers{
-        width:70vw;
+        width:100%;
     }
     .pe{
-        width: 70vw;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
